@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\application">
+      <UniqueIdentifier>{2904efce-5262-48f9-b291-24e866b1f972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d3d">
+      <UniqueIdentifier>{52e4d4e4-614d-4255-b143-6cdb025bb8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\physics">
+      <UniqueIdentifier>{48eb5b48-aa76-44b0-bde1-84a7c2b20248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\application">
+      <UniqueIdentifier>{f3e82190-d2e6-431e-8c07-c1fa2787d28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d3d">
+      <UniqueIdentifier>{56a87c39-ebc2-4ec1-a764-b2afc4337db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{5674ded2-bd15-4f37-bde9-4e4af657f6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{a8825050-e7f6-42df-a997-a11a80c07b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\ui">
+      <UniqueIdentifier>{2d8f7f81-65f1-4be0-97b6-f600e2ecc40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{30f51618-e453-42f6-927e-45521c5de991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\ui">
+      <UniqueIdentifier>{8899da31-6ca7-4e2e-a00c-2e8b87656f1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>Header Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="application_header.h">
+      <Filter>Header Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="window\d3d_manager.h">
+      <Filter>Header Files\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="window\d3d_window.h">
+      <Filter>Header Files\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\ui.h">
+      <Filter>Header Files\objects\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\controls\ui_button.h">
+      <Filter>Header Files\objects\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\controls\ui_static.h">
+      <Filter>Header Files\objects\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\controls\ui_text.h">
+      <Filter>Header Files\objects\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\body.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\collide_fine.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\contacts.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\random.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\scene_manager.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\camera.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\485.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\the_room.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files\application</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\physics.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files\application</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\application</Filter>
+    </ClCompile>
+    <ClCompile Include="window\d3d_manager.cpp">
+      <Filter>Source Files\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="window\d3d_window.cpp">
+      <Filter>Source Files\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\ui.cpp">
+      <Filter>Source Files\objects\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\controls\ui_button.cpp">
+      <Filter>Source Files\objects\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\controls\ui_static.cpp">
+      <Filter>Source Files\objects\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\body.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\collide_fine.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\contacts.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\random.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\scene_manager.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files\application</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\camera.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\485.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\the_room.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\controls\ui_text.cpp">
+      <Filter>Source Files\objects\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="the_room.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\485_uv.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\floor_plane_uv.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\485._mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\cube._mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\sphere._mesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\box_uv.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\courier.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
